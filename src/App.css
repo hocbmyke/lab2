@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.app-title {
+  font-size: 28px;
+  color: white;
+  background-color: #bba2ff;
+  margin-bottom: 25px;
+  padding: 20px 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #bba2ff;
+}
+
+/* Стилі для "підвалу" сайту */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: 25px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0 0 10px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+  color: #bba2ff;
+}
